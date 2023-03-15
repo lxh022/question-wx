@@ -1,30 +1,35 @@
 <template>
   <view id="app">
     <LuHead title="首页" />
-    <!-- 轮播图 -->
-    <swiper
-      class="swiper"
-      circular
-      :indicator-dots="true"
-      :autoplay="true"
-      :duration="500"
-      indicator-active-color="#fff"
+    <view
+      class="home-content"
+      :style="{ height: `calc(100vh - ${menuInfo.bottom + 'px'})` }"
     >
-      <swiper-item v-for="item in swiper" :key="item.img_url">
-        <view class="swiper-item" @click="goBanner(item.url)">
-          <image :src="item.img_url"></image>
-        </view>
-      </swiper-item>
-    </swiper>
-    <!-- 刷题分区 -->
-    <view class="questionList">
-      <view class="base" @click="() => goToUrl('/pages/table/table?type=1')"
-        ><text class="iconfont icon-chaxun"></text><text>速查表</text></view
+      <!-- 轮播图 -->
+      <swiper
+        class="swiper"
+        circular
+        :indicator-dots="true"
+        :autoplay="true"
+        :duration="500"
+        indicator-active-color="#fff"
       >
-      <view class="true" @click="() => goToUrl('/pages/table/table?type=2')"
-        ><text class="iconfont icon-zhongyingwenyingwen02-01"></text
-        ><text>程序单词</text></view
-      >
+        <swiper-item v-for="item in swiper" :key="item.img_url">
+          <view class="swiper-item" @click="goBanner(item.url)">
+            <image :src="item.img_url"></image>
+          </view>
+        </swiper-item>
+      </swiper>
+      <!-- 刷题分区 -->
+      <view class="questionList">
+        <view class="base" @click="() => goToUrl('/pages/table/table?type=1')"
+          ><text class="iconfont icon-chaxun"></text><text>速查表</text></view
+        >
+        <view class="true" @click="() => goToUrl('/pages/table/table?type=2')"
+          ><text class="iconfont icon-zhongyingwenyingwen02-01"></text
+          ><text>程序单词</text></view
+        >
+      </view>
     </view>
   </view>
 </template>
@@ -33,6 +38,7 @@
 import LuHead from '@/components/lu-head/index.vue';
 import { goToUrl } from '@/main';
 import { reactive } from 'vue';
+const menuInfo = uni.getMenuButtonBoundingClientRect();
 const swiper = reactive([
   {
     url: 'https://mp.weixin.qq.com/s/3c5y9BEg0qvsWZ8C5Onhqg',
@@ -55,10 +61,9 @@ const goBanner = (url: string) => {
 <style lang="scss">
 #app::after {
   content: '';
-  width: 130%;
-  height: 230px;
+  width: 100%;
+  height: 250px;
   position: absolute;
-  left: -15%;
   top: 0;
   z-index: -1;
   border-radius: 0 0 50% 50%;
@@ -66,8 +71,12 @@ const goBanner = (url: string) => {
 }
 
 #app {
-  padding: 0 15px 15px;
-
+  max-width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  .home-content {
+    padding: 0 15px 15px;
+  }
   .swiper {
     width: 100%;
     height: 190px;

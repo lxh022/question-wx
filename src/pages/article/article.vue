@@ -21,9 +21,9 @@
 </template>
 
 <script setup lang="ts">
-import LuHead from "@/components/lu-head/index.vue";
-import article from "@/libs/article.json";
-import type { ArticleType } from "@/type/type";
+import LuHead from '@/components/lu-head/index.vue';
+import article from '@/libs/article.json';
+import type { ArticleType } from '@/type/type';
 const menuInfo = uni.getMenuButtonBoundingClientRect();
 const article_list: ArticleType[] = article;
 
@@ -80,4 +80,3 @@ const seaArticle = (item: ArticleType) => {
   }
 }
 </style>
-
