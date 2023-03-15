@@ -1,0 +1,219 @@
+[
+    {
+        "name": "配置工具",
+        "children": [
+            {
+                "command": "git config --global user.name",
+                "explain": "全局配置用户名"
+            },
+            {
+                "command": "git config --global user.email",
+                "explain": "全局配置关联的邮箱地址"
+            }
+        ]
+    },
+    {
+        "name": "创建Git版本库",
+        "children": [
+            {
+                "command": "git init",
+                "explain": "初始化本地版本库"
+            },
+            {
+                "command": "git clone <url>",
+                "explain": "克隆远程版本库"
+            }
+        ]
+    },
+    {
+        "name": "修改和提交",
+        "children": [
+            {
+                "command": "git status",
+                "explain": "查看仓库状态"
+            },
+            {
+                "command": "git status -s",
+                "explain": "查看工作区状态"
+            },
+            {
+                "command": "git diff",
+                "explain": "查看文件修改内容"
+            },
+            {
+                "command": "git add .",
+                "explain": "跟踪所有改动过的文件"
+            },
+            {
+                "command": "git add <file>",
+                "explain": "跟踪指定的文件"
+            },
+            {
+                "command": "git commit -m '提交说明'",
+                "explain": "将修改过的文件保存至本地库"
+            },
+            {
+                "command": "git commit -amend",
+                "explain": "修改最后一次提交"
+            },
+            {
+                "command": "git mv <old> <new>",
+                "explain": "文件改名"
+            },
+            {
+                "command": "git rm <file>",
+                "explain": "删除文件"
+            },
+            {
+                "command": "git rm --cached <file>",
+                "explain": "停止跟踪文件但不删除"
+            }
+        ]
+    },
+    {
+        "name": "查看提交历史",
+        "children": [
+            {
+                "command": "git log",
+                "explain": "查看提交历史"
+            },
+            {
+                "command": "git log -p <file>",
+                "explain": "查看指定文件的提交历史"
+            },
+            {
+                "command": "git blame <file>",
+                "explain": "以列表方式查看指定文件的提交历史"
+            }
+        ]
+    },
+    {
+        "name": "分支管理",
+        "children": [
+            {
+                "command": "git branch",
+                "explain": "创建分支"
+            },
+            {
+                "command": "git checkout/switch",
+                "explain": "切换到指定文件"
+            },
+            {
+                "command": "git checkout -b",
+                "explain": "创建并切换分支"
+            },
+            {
+                "command": "git branch -d",
+                "explain": "删除本地分支"
+            },
+            {
+                "command": "git branch [-r|-a]",
+                "explain": "-r查看远程分支；-a查看本地分支"
+            },
+            {
+                "command": "git cherry-pik",
+                "explain": "将指定提交的改变复制到当前分支"
+            },
+            {
+                "command": "git merge",
+                "explain": "合并指定分支到当前分支上"
+            },
+            {
+                "command": "git rebase",
+                "explain": "为push的历史提交记录，使其log成直线"
+            }
+        ]
+    },
+    {
+        "name": "标签管理",
+        "children": [
+            {
+                "command": "git tag",
+                "explain": "列出所有本地标签"
+            },
+            {
+                "command": "git tag -d",
+                "explain": "删除标签"
+            },
+            {
+                "command": "git push origin --tags",
+                "explain": "推送所有标签"
+            }
+        ]
+    },
+    {
+        "name": "保存与恢复工作",
+        "children": [
+            {
+                "command": "git stash",
+                "explain": "保存工作状态"
+            },
+            {
+                "command": "git stash pop",
+                "explain": "恢复并删除已保存工作状态"
+            }
+        ]
+    },
+    {
+        "name": "远程库操作",
+        "children": [
+            {
+                "command": "git remote -v",
+                "explain": "查看远程库信息"
+            },
+            {
+                "command": "git remote add origin",
+                "explain": "关联远程库"
+            },
+            {
+                "command": "git remote add",
+                "explain": "添加远程库"
+            },
+            {
+                "command": "git push origin",
+                "explain": "推送本地提交至远程分支"
+            },
+            {
+                "command": "git push -u origin",
+                "explain": "第一次推送至远程分支"
+            },
+            {
+                "command": "git push -f origin",
+                "explain": "强制推送覆盖至远程分支"
+            },
+            {
+                "command": "git pull origin",
+                "explain": "拉取远程分支与本地分支合并"
+            }
+        ]
+    },
+    {
+        "name": "版本回退",
+        "children": [
+            {
+                "command": "git reset --soft",
+                "explain": "回到之前版本，该版本之后的改变保存在缓存区（已执行add操作）"
+            },
+            {
+                "command": "git reset --mixed",
+                "explain": "回到之前版本，该版本之后的改变未丢失（未执行add操作）"
+            },
+            {
+                "command": "git reset --hard",
+                "explain": "回到指定版本，该版本之前改变消失，完全回退"
+            },
+            {
+                "command": "git reflog",
+                "explain": "查看历史提交命令及commit id"
+            },
+            {
+                "command": "git checkout --",
+                "explain": "暂存区回退"
+            },
+            {
+                "command": "git revert",
+                "explain": "撤销指定提交"
+            }
+        ]
+    }
+]

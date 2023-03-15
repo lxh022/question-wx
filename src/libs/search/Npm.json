@@ -1,0 +1,111 @@
+[
+    {
+        "name": "链接",
+        "children": [
+            {
+                "command": "安装nodejs",
+                "explain": "https://nodejs.org/zh-cn/"
+            }
+        ]
+    },
+    {
+        "name": "安装包",
+        "children": [
+            {
+                "command": "npm init",
+                "explain": "初始化项目"
+            },
+            {
+                "command": "npm -v",
+                "explain": "查看npm版本"
+            },
+            {
+                "command": "npm install",
+                "explain": "安装依赖"
+            },
+            {
+                "command": "npm install @",
+                "explain": "安装指定依赖"
+            },
+            {
+                "command": "npm uninstall",
+                "explain": "卸载依赖"
+            },
+            {
+                "command": "npm prune",
+                "explain": "删除未使用的包"
+            },
+            {
+                "command": "npm cache clean",
+                "explain": "从npm缓存中清除"
+            }
+        ]
+    },
+    {
+        "name": "列出软件包",
+        "children": [
+            {
+                "command": "npm list",
+                "explain": "列表所有安装包"
+            },
+            {
+                "command": "npm list -g --depth 0",
+                "explain": "列表所有全局包深度0"
+            },
+            {
+                "command": "npm ls",
+                "explain": "npm list的缩写"
+            },
+            {
+                "command": "npm ls --dev true",
+                "explain": "列出开发依赖项"
+            },
+            {
+                "command": "npm ls --prod true",
+                "explain": "列出产品依赖项"
+            }
+        ]
+    },
+    {
+        "name": "更新",
+        "children": [
+            {
+                "command": "npm update",
+                "explain": "更新生产包"
+            },
+            {
+                "command": "npm update -D",
+                "explain": "更新开发包"
+            },
+            {
+                "command": "npm update -g",
+                "explain": "更新全局包"
+            }
+        ]
+    },
+    {
+        "name": "缩写",
+        "children": [
+            {
+                "command": "install",
+                "explain": "i"
+            },
+            {
+                "command": "--global",
+                "explain": "-g"
+            },
+            {
+                "command": "--save",
+                "explain": "-S"
+            },
+            {
+                "command": "--save-dev",
+                "explain": "-D"
+            },
+            {
+                "command": "list",
+                "explain": "ls"
+            }
+        ]
+    }
+]

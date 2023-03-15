@@ -1,0 +1,157 @@
+[
+    {
+        "title": "书写",
+        "children": [
+            {
+                "word": "letter",
+                "meaning": "信",
+                "placeholder": 8
+            },
+            {
+                "word": "word",
+                "meaning": "字",
+                "placeholder": 8
+            },
+            {
+                "word": "phrase",
+                "meaning": "短语",
+                "placeholder": 8
+            },
+            {
+                "word": "sentence",
+                "meaning": "句子",
+                "placeholder": 8
+            },
+            {
+                "word": "indentation",
+                "meaning": "缩进",
+                "placeholder": 8
+            },
+            {
+                "word": "paragraph",
+                "meaning": "段",
+                "placeholder": 8
+            },
+            {
+                "word": "line",
+                "meaning": "线",
+                "placeholder": 8
+            },
+            {
+                "word": "page",
+                "meaning": "页",
+                "placeholder": 8
+            },
+            {
+                "word": "magin",
+                "meaning": "余量",
+                "placeholder": 8
+            },
+            {
+                "word": "punctuation",
+                "meaning": "标点",
+                "placeholder": 8
+            },
+            {
+                "word": "comma",
+                "meaning": "逗号",
+                "placeholder": 8
+            },
+            {
+                "word": "period",
+                "meaning": "期",
+                "placeholder": 8
+            },
+            {
+                "word": "semicolon",
+                "meaning": "分号",
+                "placeholder": 8
+            },
+            {
+                "word": "colon",
+                "meaning": "冒号，结肠",
+                "placeholder": 8
+            },
+            {
+                "word": "exclamation",
+                "meaning": "感叹号",
+                "placeholder": 8
+            },
+            {
+                "word": "question mark",
+                "meaning": "问号",
+                "placeholder": 8
+            },
+            {
+                "word": "apostrophe",
+                "meaning": "撇号",
+                "placeholder": 8
+            },
+            {
+                "word": "quotation mark",
+                "meaning": "引号",
+                "placeholder": 8
+            },
+            {
+                "word": "parenthesis",
+                "meaning": "插入语",
+                "placeholder": 8
+            },
+            {
+                "word": "square bracket",
+                "meaning": "方括号",
+                "placeholder": 8
+            },
+            {
+                "word": "slash",
+                "meaning": "削减",
+                "placeholder": 8
+            },
+            {
+                "word": "dash,hyphen",
+                "meaning": "短划线，连字符",
+                "placeholder": 8
+            },
+            {
+                "word": "underscore",
+                "meaning": "下划线",
+                "placeholder": 8
+            },
+            {
+                "word": "number sign",
+                "meaning": "数字标志",
+                "placeholder": 8
+            },
+            {
+                "word": "ampersand",
+                "meaning": "符号",
+                "placeholder": 8
+            },
+            {
+                "word": "at sign",
+                "meaning": "在标志",
+                "placeholder": 8
+            },
+            {
+                "word": "asterisk",
+                "meaning": "星号",
+                "placeholder": 8
+            },
+            {
+                "word": "chapter",
+                "meaning": "章节",
+                "placeholder": 8
+            },
+            {
+                "word": "syllable",
+                "meaning": "音节",
+                "placeholder": 8
+            },
+            {
+                "word": "course",
+                "meaning": "课程",
+                "placeholder": 8
+            }
+        ]
+    }
+]

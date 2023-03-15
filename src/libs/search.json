@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Git速查表",
+		"icon": "icon-github-fill",
+		"color": "#333333",
+		"url": "/pages/search/git"
+	},
+	{
+		"name": "Js速查表",
+		"icon": "icon-js",
+		"color": "#FFCA28",
+		"url": "/pages/search/js"
+	},
+	{
+		"name": "jQuery速查表",
+		"icon": "icon-jquery",
+		"color": "#0769AD",
+		"url": "/pages/search/jq"
+	},
+	{
+		"name": "npm速查表",
+		"icon": "icon-npm",
+		"color": "#CB3837",
+		"url": "/pages/search/npm"
+	},
+	{
+		"name": "Vue速查表",
+		"icon": "icon-vue",
+		"color": "#41B883",
+		"url": "/pages/search/vue"
+	},
+	{
+		"name": "React速查表",
+		"icon": "icon-react",
+		"color": "#5DD4FA",
+		"url": "/pages/search/react"
+	},
+	{
+		"name": "Typescript速查表",
+		"icon": "icon-typescript",
+		"color": "#0288D1",
+		"url": "/pages/search/ts"
+	},
+	{
+		"name": "Markdown速查表",
+		"icon": "icon-file-markdown",
+		"color": "#1296DB",
+		"url": "/pages/search/md"
+	}
+]

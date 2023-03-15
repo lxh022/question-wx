@@ -1,0 +1,242 @@
+[
+    {
+        "name": "常用选择器",
+        "children": [
+            {
+                "command": "$('*')",
+                "explain": "所有元素"
+            },
+            {
+                "command": "$('p')",
+                "explain": "所有<p>元素"
+            },
+            {
+                "command": "$('#id')",
+                "explain": "id='#id'的所有元素"
+            },
+            {
+                "command": "$('.class')",
+                "explain": "class='.class'的所有元素"
+            },
+            {
+                "command": "$('h1,p,span')",
+                "explain": "所有<h1>、<div> 和 <p> 元素"
+            }
+        ]
+    },
+    {
+        "name": "动画效果",
+        "children": [
+            {
+                "command": "animate()",
+                "explain": "对被选元素应用'自定义'的动画"
+            },
+            {
+                "command": "clearQueue()",
+                "explain": "对被选元素移除所有排队函数（仍未运行的）"
+            },
+            {
+                "command": "delay()",
+                "explain": "对被选元素的所有排队函数（仍未运行）设置延迟"
+            },
+            {
+                "command": "dequeue()",
+                "explain": "移除下一个排队函数，然后执行函数"
+            },
+            {
+                "command": "fadeIn()",
+                "explain": "逐渐改变被选元素的不透明度，从隐藏到可见"
+            },
+            {
+                "command": "fadeOut()",
+                "explain": "逐渐改变被选元素的不透明度，从可见到隐藏"
+            },
+            {
+                "command": "fadeTo()",
+                "explain": "把被选元素逐渐改变至给定的不透明度"
+            },
+            {
+                "command": "fadeToggle()",
+                "explain": "在fadeIn()和fadeOut()方法之间进行切换"
+            },
+            {
+                "command": "finish()",
+                "explain": "对被选元素停止、移除并完成所有排队动画"
+            },
+            {
+                "command": "hide()",
+                "explain": "隐藏被选元素"
+            },
+            {
+                "command": "queue()",
+                "explain": "显示被选元素的排队函数"
+            },
+            {
+                "command": "show()",
+                "explain": "显示被选元素"
+            },
+            {
+                "command": "slideDown()",
+                "explain": "通过调整高度来滑动显示被选元素"
+            },
+            {
+                "command": "slideToggel()",
+                "explain": "slideUp()和slideDown()方法之间的切换"
+            },
+            {
+                "command": "slideUp()",
+                "explain": "通过调整高度来滑动隐藏被选元素"
+            },
+            {
+                "command": "stop()",
+                "explain": "停止被选元素上当前正在运行的动画"
+            },
+            {
+                "command": "toggle()",
+                "explain": "hide()和show()方法之间的切换"
+            }
+        ]
+    },
+    {
+        "name": "AJAX方法",
+        "children": [
+            {
+                "command": "$.ajax()",
+                "explain": "执行异步 AJAX 请求"
+            },
+            {
+                "command": "$.ajaxPrefilter()",
+                "explain": "在每个请求发送之前且被 $.ajax() 处理之前，处理自定义 Ajax 选项或修改已存在选项"
+            },
+            {
+                "command": "$.ajaxTransport()",
+                "explain": "为将来的 AJAX 请求设置默认值"
+            },
+            {
+                "command": "$.get()",
+                "explain": "使用 AJAX 的 HTTP GET 请求从服务器加载数据"
+            },
+            {
+                "command": "$.getJSON()",
+                "explain": "使用 HTTP GET 请求从服务器加载 JSON 编码的数据"
+            },
+            {
+                "command": "$.getScript()",
+                "explain": "使用 AJAX 的 HTTP GET 请求从服务器加载并执行 JavaScript"
+            },
+            {
+                "command": "$.param()",
+                "explain": "创建数组或对象的序列化表示形式（可用于 AJAX 请求的 URL 查询字符串）"
+            },
+            {
+                "command": "$.post()",
+                "explain": "使用 AJAX 的 HTTP POST 请求从服务器加载数据"
+            },
+            {
+                "command": "ajaxComplete()",
+                "explain": "规定 AJAX 请求完成时运行的函数"
+            },
+            {
+                "command": "ajaxError()",
+                "explain": "规定 AJAX 请求失败时运行的函数"
+            },
+            {
+                "command": "ajaxSend()",
+                "explain": "规定 AJAX 请求发送之前运行的函数"
+            },
+            {
+                "command": "ajaxStart()",
+                "explain": "规定第一个 AJAX 请求开始时运行的函数"
+            },
+            {
+                "command": "ajaxStop()",
+                "explain": "规定所有的 AJAX 请求完成时运行的函数"
+            },
+            {
+                "command": "ajaxSuccess()",
+                "explain": "规定 AJAX 请求成功完成时运行的函数"
+            },
+            {
+                "command": "load()",
+                "explain": "从服务器加载数据，并把返回的数据放置到指定的元素中"
+            },
+            {
+                "command": "serialize()",
+                "explain": "编码表单元素集为字符串以便提交"
+            },
+            {
+                "command": "serializeArray()",
+                "explain": "编码表单元素集为 names 和 values 的数组"
+            }
+        ]
+    },
+    {
+        "name": "DOM操作",
+        "children": [
+            {
+                "command": ".append() 追加",
+                "explain": ".prepend() 插入"
+            },
+            {
+                "command": ".appendTo() 追加到",
+                "explain": ".prependTo() 插入到"
+            },
+            {
+                "command": ".after() 插入其后",
+                "explain": ".before() 出入其前"
+            },
+            {
+                "command": ".insertAfter() 插入到后",
+                "explain": ".insertBefore() 选入到前"
+            },
+            {
+                "command": ".next() 下一个",
+                "explain": ".prev() 选择上一个"
+            },
+            {
+                "command": ".data()",
+                "explain": ".attr('name','val') 属性"
+            },
+            {
+                "command": ".removeProp() 移除属性",
+                "explain": ".prop() 参数"
+            },
+            {
+                "command": ".empty() 清空",
+                "explain": ".remove() 移除"
+            },
+            {
+                "command": ".removeAttr() 移出属性",
+                "explain": ".first() 第一个"
+            },
+            {
+                "command": ".last() 最后一个",
+                "explain": ".children() 在节点"
+            },
+            {
+                "command": ".find() 查找",
+                "explain": ".html() html内容"
+            },
+            {
+                "command": ".text() 获取文本内容",
+                "explain": ".val() 获取表单值"
+            },
+            {
+                "command": ".end() 结束",
+                "explain": ".css('styleName','style')"
+            },
+            {
+                "command": ".addClass() 添加类",
+                "explain": ".removeClass() 移出类"
+            },
+            {
+                "command": ".toggleClass() 切换class",
+                "explain": ".eq() 第n个"
+            },
+            {
+                "command": ".not() 排序",
+                "explain": ".extend() 继承，拷贝"
+            }
+        ]
+    }
+]

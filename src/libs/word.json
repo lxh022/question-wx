@@ -1,0 +1,44 @@
+[
+	{
+		"name": "HTML",
+		"icon": "icon-HTML",
+		"color": "#E94F20",
+		"url": "/pages/word/html"
+	},
+	{
+		"name": "Css",
+		"icon": "icon-css3",
+		"color": "#1E33E6",
+		"url": "/pages/word/css"
+	},
+	{
+		"name": "Jacascript",
+		"icon": "icon-js",
+		"color": "#FFCA28",
+		"url": "/pages/word/js"
+	},
+	{
+		"name": "jQuery",
+		"icon": "icon-jquery",
+		"color": "#0769AD",
+		"url": "/pages/word/jq"
+	},
+	{
+		"name": "Vue",
+		"icon": "icon-vue",
+		"color": "#41B883",
+		"url": "/pages/word/vue"
+	},
+	{
+		"name": "书写",
+		"icon": "icon-19shuxie3x",
+		"color": "#5DD4FA",
+		"url": "/pages/word/write"
+	},
+	{
+		"name": "数字序号",
+		"icon": "icon-shuzixuhao",
+		"color": "#1296DB",
+		"url": "/pages/word/number"
+	}
+]

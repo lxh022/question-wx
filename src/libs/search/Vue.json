@@ -1,0 +1,425 @@
+[
+    {
+        "name": "Vue",
+        "children": [
+            {
+                "command": "Vue2官网",
+                "explain": "https://v2.cn.vuejs.org/"
+            },
+            {
+                "command": "Vue3官网",
+                "explain": "https://cn.vuejs.org/"
+            }
+        ]
+    },
+    {
+        "name": "生命周期",
+        "children": [
+            {
+                "command": "beforeCreate",
+                "explain": "创建前"
+            },
+            {
+                "command": "created",
+                "explain": "创建完毕"
+            },
+            {
+                "command": "beforeMount",
+                "explain": "挂载前"
+            },
+            {
+                "command": "mounted",
+                "explain": "挂载完毕"
+            },
+            {
+                "command": "beforeUpdate",
+                "explain": "更新前"
+            },
+            {
+                "command": "updated",
+                "explain": "更新完毕"
+            },
+            {
+                "command": "activated",
+                "explain": "激活"
+            },
+            {
+                "command": "deactivated",
+                "explain": "失焦"
+            },
+            {
+                "command": "beforeDestroy",
+                "explain": "销毁前"
+            },
+            {
+                "command": "destroyed",
+                "explain": "销毁完毕"
+            },
+            {
+                "command": "errorCaptured",
+                "explain": "错误捕捉"
+            }
+        ]
+    },
+    {
+        "name": "指令",
+        "children": [
+            {
+                "command": "v-text",
+                "explain": "文本"
+            },
+            {
+                "command": "v-html",
+                "explain": "html内容绑定"
+            },
+            {
+                "command": "v-show",
+                "explain": "显示"
+            },
+            {
+                "command": "v-hide",
+                "explain": "隐藏"
+            },
+            {
+                "command": "v-if",
+                "explain": "条件渲染"
+            },
+            {
+                "command": "v-else",
+                "explain": "否则"
+            },
+            {
+                "command": "v-else-if",
+                "explain": "其他条件"
+            },
+            {
+                "command": "v-for",
+                "explain": "循环渲染"
+            },
+            {
+                "command": "v-on",
+                "explain": "事件绑定"
+            },
+            {
+                "command": "@事件名",
+                "explain": "事件简写"
+            },
+            {
+                "command": "v-bind",
+                "explain": "属性绑定"
+            },
+            {
+                "command": ":属性",
+                "explain": "属性绑定简写"
+            },
+            {
+                "command": "v-model",
+                "explain": "绑定参数"
+            },
+            {
+                "command": "v-slot",
+                "explain": "插槽"
+            },
+            {
+                "command": "v-pre",
+                "explain": "跳过编译"
+            },
+            {
+                "command": "v-cloak",
+                "explain": "隐藏未编译节点"
+            },
+            {
+                "command": "v-once",
+                "explain": "只渲染一次"
+            }
+        ]
+    },
+    {
+        "name": "特殊特性",
+        "children": [
+            {
+                "command": "key",
+                "explain": "虚拟DOM识别id"
+            },
+            {
+                "command": "ref",
+                "explain": "DOM节点引用"
+            },
+            {
+                "command": "is",
+                "explain": "制作动态指令"
+            },
+            {
+                "command": "slot",
+                "explain": "具名插槽"
+            },
+            {
+                "command": "slot-scope",
+                "explain": "作用域插槽"
+            },
+            {
+                "command": "scope",
+                "explain": "插槽作用域"
+            }
+        ]
+    },
+    {
+        "name": "内置的组件",
+        "children": [
+            {
+                "command": "component",
+                "explain": "动态组件"
+            },
+            {
+                "command": "transition",
+                "explain": "过渡动画"
+            },
+            {
+                "command": "transition-group",
+                "explain": "过渡动画组"
+            },
+            {
+                "command": "keep-alive",
+                "explain": "缓存"
+            },
+            {
+                "command": "slot",
+                "explain": "插槽"
+            }
+        ]
+    },
+    {
+        "name": "实例属性",
+        "children": [
+            {
+                "command": "vm.$data",
+                "explain": "输入"
+            },
+            {
+                "command": "vm.$props",
+                "explain": "传入参数"
+            },
+            {
+                "command": "vm.$el",
+                "explain": "指定dom节点"
+            },
+            {
+                "command": "vm.$options",
+                "explain": "实例选项"
+            },
+            {
+                "command": "vm.$parent",
+                "explain": "父节点"
+            },
+            {
+                "command": "vm.$root",
+                "explain": "根节点"
+            },
+            {
+                "command": "vm.$children",
+                "explain": "子组件"
+            },
+            {
+                "command": "vm.$slot",
+                "explain": "查找"
+            },
+            {
+                "command": "vm.scopedSlots",
+                "explain": "作用域插槽"
+            },
+            {
+                "command": "vm.$refs",
+                "explain": "对象引用"
+            },
+            {
+                "command": "vm.$isServer",
+                "explain": "是否运行于服务器"
+            },
+            {
+                "command": "vm.$attrs",
+                "explain": "绑定的属性"
+            },
+            {
+                "command": "vm.$listeners",
+                "explain": "事件监听器"
+            }
+        ]
+    },
+    {
+        "name": "实例方法",
+        "children": [
+            {
+                "command": "vm.$watch",
+                "explain": "监听"
+            },
+            {
+                "command": "vm.$set",
+                "explain": "更新数据与视图"
+            },
+            {
+                "command": "vm.$delete",
+                "explain": "删除数据"
+            },
+            {
+                "command": "vm.$on",
+                "explain": "监听事件"
+            },
+            {
+                "command": "vm.$once",
+                "explain": "检查时间一次"
+            },
+            {
+                "command": "vm.$off",
+                "explain": "移出事件"
+            },
+            {
+                "command": "vm.$emit",
+                "explain": "vm.发送事件"
+            },
+            {
+                "command": "vm.$forceUpdate",
+                "explain": "强制更新"
+            },
+            {
+                "command": "vm.$nextTick",
+                "explain": "DOM更新回调"
+            }
+        ]
+    },
+    {
+        "name": "选项-数据",
+        "children": [
+            {
+                "command": "computed",
+                "explain": "计算"
+            },
+            {
+                "command": "data",
+                "explain": "数据"
+            },
+            {
+                "command": "methods",
+                "explain": "方法"
+            },
+            {
+                "command": "props",
+                "explain": "属性"
+            },
+            {
+                "command": "propsData",
+                "explain": "实例props"
+            },
+            {
+                "command": "watch",
+                "explain": "数据监听"
+            }
+        ]
+    },
+    {
+        "name": "选项-DOM",
+        "children": [
+            {
+                "command": "el",
+                "explain": "实例挂载目标节点"
+            },
+            {
+                "command": "template",
+                "explain": "目标"
+            },
+            {
+                "command": "render",
+                "explain": "渲染"
+            },
+            {
+                "command": "renderError",
+                "explain": "渲染错误"
+            }
+        ]
+    },
+    {
+        "name": "全局API",
+        "children": [
+            {
+                "command": "Vue.extend",
+                "explain": "继承"
+            },
+            {
+                "command": "Vue.nextTick",
+                "explain": "DOM更新回调"
+            },
+            {
+                "command": "Vue.set",
+                "explain": "更新属性"
+            },
+            {
+                "command": "Vue.delete",
+                "explain": "删除"
+            },
+            {
+                "command": "Vue.directive",
+                "explain": "指定"
+            },
+            {
+                "command": "Vue.filter",
+                "explain": "过滤与管道"
+            },
+            {
+                "command": "Vue.component",
+                "explain": "组件"
+            },
+            {
+                "command": "Vue.use",
+                "explain": "使用插件"
+            },
+            {
+                "command": "Vue.minxin",
+                "explain": "混合"
+            },
+            {
+                "command": "Vue.compile",
+                "explain": "编译"
+            },
+            {
+                "command": "Vue.observable",
+                "explain": "对象可响应"
+            },
+            {
+                "command": "Vue.version",
+                "explain": "版本"
+            }
+        ]
+    },
+    {
+        "name": "事件修饰符",
+        "children": [
+            {
+                "command": ".native",
+                "explain": "原生事件"
+            },
+            {
+                "command": ".stop",
+                "explain": "阻止事件冒泡"
+            },
+            {
+                "command": ".prevent",
+                "explain": "阻止默认事件"
+            },
+            {
+                "command": ".passive",
+                "explain": "滚动就触发"
+            },
+            {
+                "command": ".captrue",
+                "explain": "捕获模式"
+            },
+            {
+                "command": ".self",
+                "explain": "事件对象自身"
+            },
+            {
+                "command": ".once",
+                "explain": "只捕获一次"
+            }
+        ]
+    }
+]

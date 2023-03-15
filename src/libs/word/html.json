@@ -1,0 +1,447 @@
+[
+    {
+        "title": "基本",
+        "children": [
+            {
+                "word": "html",
+                "meaning": "超文本标记语言",
+                "placeholder": 8
+            },
+            {
+                "word": "head",
+                "meaning": "文档的信息",
+                "placeholder": 8
+            },
+            {
+                "word": "meta",
+                "meaning": "元信息",
+                "placeholder": 8
+            },
+            {
+                "word": "title",
+                "meaning": "标题",
+                "placeholder": 8
+            },
+            {
+                "word": "link",
+                "meaning": "外部资源",
+                "placeholder": 8
+            },
+            {
+                "word": "style",
+                "meaning": "样式",
+                "placeholder": 8
+            },
+            {
+                "word": "body",
+                "meaning": "身体，可见区域",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "块级文本",
+        "children": [
+            {
+                "word": "h1~h6",
+                "meaning": "标题",
+                "placeholder": 8
+            },
+            {
+                "word": "p",
+                "meaning": "段落",
+                "placeholder": 8
+            },
+            {
+                "word": "ul",
+                "meaning": "无序列表",
+                "placeholder": 8
+            },
+            {
+                "word": "ol",
+                "meaning": "有序列表",
+                "placeholder": 8
+            },
+            {
+                "word": "dt",
+                "meaning": "定义标题",
+                "placeholder": 8
+            },
+            {
+                "word": "dl",
+                "meaning": "定义清单",
+                "placeholder": 8
+            },
+            {
+                "word": "dd",
+                "meaning": "定义内容",
+                "placeholder": 8
+            },
+            {
+                "word": "pre",
+                "meaning": "预定义",
+                "placeholder": 8
+            },
+            {
+                "word": "div",
+                "meaning": "块级图层",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "行内文本",
+        "children": [
+            {
+                "word": "font",
+                "meaning": "字体",
+                "placeholder": 8
+            },
+            {
+                "word": "i",
+                "meaning": "斜体",
+                "placeholder": 8
+            },
+            {
+                "word": "big",
+                "meaning": "大的",
+                "placeholder": 8
+            },
+            {
+                "word": "b/strong",
+                "meaning": "粗体",
+                "placeholder": 8
+            },
+            {
+                "word": "hr",
+                "meaning": "水平线",
+                "placeholder": 8
+            },
+            {
+                "word": "sub",
+                "meaning": "下标",
+                "placeholder": 8
+            },
+            {
+                "word": "sup",
+                "meaning": "上标",
+                "placeholder": 8
+            },
+            {
+                "word": "small",
+                "meaning": "小的",
+                "placeholder": 8
+            },
+            {
+                "word": "em",
+                "meaning": "块级图层",
+                "placeholder": 8
+            },
+            {
+                "word": "u",
+                "meaning": "下划线",
+                "placeholder": 8
+            },
+            {
+                "word": "br",
+                "meaning": "换行",
+                "placeholder": 8
+            },
+            {
+                "word": "span",
+                "meaning": "行内块",
+                "placeholder": 8
+            },
+            {
+                "word": "a",
+                "meaning": "超链接",
+                "placeholder": 8
+            },
+            {
+                "word": "img",
+                "meaning": "图片",
+                "placeholder": 8
+            },
+            {
+                "word": "href",
+                "meaning": "链接地址",
+                "placeholder": 8
+            },
+            {
+                "word": "src",
+                "meaning": "图片路径",
+                "placeholder": 8
+            },
+            {
+                "word": "iframe",
+                "meaning": "浮动框架",
+                "placeholder": 8
+            },
+            {
+                "word": "url",
+                "meaning": "统一资源定义器",
+                "placeholder": 8
+            },
+            {
+                "word": "http",
+                "meaning": "网络协议",
+                "placeholder": 8
+            },
+            {
+                "word": "target",
+                "meaning": "目标",
+                "placeholder": 8
+            },
+            {
+                "word": "blank",
+                "meaning": "空白",
+                "placeholder": 8
+            },
+            {
+                "word": "embed",
+                "meaning": "嵌入",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "表单",
+        "children": [
+            {
+                "word": "input",
+                "meaning": "输入",
+                "placeholder": 8
+            },
+            {
+                "word": "text",
+                "meaning": "文本",
+                "placeholder": 8
+            },
+            {
+                "word": "password",
+                "meaning": "密码",
+                "placeholder": 8
+            },
+            {
+                "word": "radio",
+                "meaning": "单选",
+                "placeholder": 8
+            },
+            {
+                "word": "checkbox",
+                "meaning": "多选",
+                "placeholder": 8
+            },
+            {
+                "word": "select",
+                "meaning": "选择",
+                "placeholder": 8
+            },
+            {
+                "word": "option",
+                "meaning": "选项",
+                "placeholder": 8
+            },
+            {
+                "word": "hidden",
+                "meaning": "隐藏",
+                "placeholder": 8
+            },
+            {
+                "word": "file",
+                "meaning": "文件",
+                "placeholder": 8
+            },
+            {
+                "word": "value",
+                "meaning": "价值",
+                "placeholder": 8
+            },
+            {
+                "word": "name",
+                "meaning": "名称",
+                "placeholder": 8
+            },
+            {
+                "word": "textarea",
+                "meaning": "文本区域",
+                "placeholder": 8
+            },
+            {
+                "word": "reset",
+                "meaning": "重置，复位",
+                "placeholder": 8
+            },
+            {
+                "word": "button",
+                "meaning": "按钮",
+                "placeholder": 8
+            },
+            {
+                "word": "submit",
+                "meaning": "提交",
+                "placeholder": 8
+            },
+            {
+                "word": "rows",
+                "meaning": "行",
+                "placeholder": 8
+            },
+            {
+                "word": "cols",
+                "meaning": "列",
+                "placeholder": 8
+            },
+            {
+                "word": "post",
+                "meaning": "投递",
+                "placeholder": 8
+            },
+            {
+                "word": "get",
+                "meaning": "得到",
+                "placeholder": 8
+            },
+            {
+                "word": "method",
+                "meaning": "方法",
+                "placeholder": 8
+            },
+            {
+                "word": "action",
+                "meaning": "功能",
+                "placeholder": 8
+            },
+            {
+                "word": "readonly",
+                "meaning": "只读",
+                "placeholder": 8
+            },
+            {
+                "word": "checked",
+                "meaning": "被选中",
+                "placeholder": 8
+            },
+            {
+                "word": "disabled",
+                "meaning": "禁用",
+                "placeholder": 8
+            },
+            {
+                "word": "selected",
+                "meaning": "选择",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "表格",
+        "children": [
+            {
+                "word": "table",
+                "meaning": "表格",
+                "placeholder": 8
+            },
+            {
+                "word": "thead",
+                "meaning": "表头",
+                "placeholder": 8
+            },
+            {
+                "word": "tbody",
+                "meaning": "表内容",
+                "placeholder": 8
+            },
+            {
+                "word": "tfoot",
+                "meaning": "表脚",
+                "placeholder": 8
+            },
+            {
+                "word": "th",
+                "meaning": "标题列",
+                "placeholder": 8
+            },
+            {
+                "word": "tr",
+                "meaning": "表格行",
+                "placeholder": 8
+            },
+            {
+                "word": "td",
+                "meaning": "表格列",
+                "placeholder": 8
+            },
+            {
+                "word": "caption",
+                "meaning": "标题",
+                "placeholder": 8
+            },
+            {
+                "word": "border",
+                "meaning": "边框",
+                "placeholder": 8
+            },
+            {
+                "word": "width",
+                "meaning": "宽度",
+                "placeholder": 8
+            },
+            {
+                "word": "align",
+                "meaning": "对齐",
+                "placeholder": 8
+            },
+            {
+                "word": "center",
+                "meaning": "居中",
+                "placeholder": 8
+            },
+            {
+                "word": "left",
+                "meaning": "左",
+                "placeholder": 8
+            },
+            {
+                "word": "right",
+                "meaning": "右",
+                "placeholder": 8
+            },
+            {
+                "word": "cellspacing",
+                "meaning": "单元格间距",
+                "placeholder": 8
+            },
+            {
+                "word": "cellpadding",
+                "meaning": "单元格边距",
+                "placeholder": 8
+            },
+            {
+                "word": "background",
+                "meaning": "背景",
+                "placeholder": 8
+            },
+            {
+                "word": "valign",
+                "meaning": "垂直对齐",
+                "placeholder": 8
+            },
+            {
+                "word": "middle",
+                "meaning": "垂直居中",
+                "placeholder": 8
+            },
+            {
+                "word": "top",
+                "meaning": "顶部",
+                "placeholder": 8
+            },
+            {
+                "word": "bottom",
+                "meaning": "底部",
+                "placeholder": 8
+            }
+        ]
+    }
+]

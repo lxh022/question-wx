@@ -1,0 +1,817 @@
+[
+    {
+        "title": "基本语法",
+        "children": [
+            {
+                "word": "var",
+                "meaning": "定义变量",
+                "placeholder": 8
+            },
+            {
+                "word": "if",
+                "meaning": "如果",
+                "placeholder": 8
+            },
+            {
+                "word": "else",
+                "meaning": "否则",
+                "placeholder": 8
+            },
+            {
+                "word": "switch",
+                "meaning": "切换",
+                "placeholder": 8
+            },
+            {
+                "word": "for",
+                "meaning": "for循环",
+                "placeholder": 8
+            },
+            {
+                "word": "while",
+                "meaning": "当...的时候",
+                "placeholder": 8
+            },
+            {
+                "word": "do",
+                "meaning": "做",
+                "placeholder": 8
+            },
+            {
+                "word": "break",
+                "meaning": "中断",
+                "placeholder": 8
+            },
+            {
+                "word": "continue",
+                "meaning": "继续",
+                "placeholder": 8
+            },
+            {
+                "word": "function",
+                "meaning": "函数，功能",
+                "placeholder": 8
+            },
+            {
+                "word": "return",
+                "meaning": "身体，可见区域",
+                "placeholder": 8
+            },
+            {
+                "word": "number",
+                "meaning": "数字",
+                "placeholder": 8
+            },
+            {
+                "word": "int",
+                "meaning": "整数",
+                "placeholder": 8
+            },
+            {
+                "word": "float",
+                "meaning": "浮点数",
+                "placeholder": 8
+            },
+            {
+                "word": "string",
+                "meaning": "字符串",
+                "placeholder": 8
+            },
+            {
+                "word": "boolean",
+                "meaning": "布尔",
+                "placeholder": 8
+            },
+            {
+                "word": "typeof",
+                "meaning": "类型",
+                "placeholder": 8
+            },
+            {
+                "word": "null",
+                "meaning": "空",
+                "placeholder": 8
+            },
+            {
+                "word": "console",
+                "meaning": "控制台",
+                "placeholder": 8
+            },
+            {
+                "word": "log",
+                "meaning": "日志",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "引用对象",
+        "children": [
+            {
+                "word": "array",
+                "meaning": "数组",
+                "placeholder": 8
+            },
+            {
+                "word": "length",
+                "meaning": "长度",
+                "placeholder": 8
+            },
+            {
+                "word": "concat",
+                "meaning": "拼接",
+                "placeholder": 8
+            },
+            {
+                "word": "join",
+                "meaning": "串联",
+                "placeholder": 8
+            },
+            {
+                "word": "pop",
+                "meaning": "弹出",
+                "placeholder": 8
+            },
+            {
+                "word": "push",
+                "meaning": "添加",
+                "placeholder": 8
+            },
+            {
+                "word": "reverse",
+                "meaning": "反转",
+                "placeholder": 8
+            },
+            {
+                "word": "sort",
+                "meaning": "排序",
+                "placeholder": 8
+            },
+            {
+                "word": "slice",
+                "meaning": "切片，划分",
+                "placeholder": 8
+            },
+            {
+                "word": "splice",
+                "meaning": "粘接",
+                "placeholder": 8
+            },
+            {
+                "word": "charAt",
+                "meaning": "获取某位置字符",
+                "placeholder": 8
+            },
+            {
+                "word": "indexOf",
+                "meaning": "查找位置",
+                "placeholder": 8
+            },
+            {
+                "word": "replace",
+                "meaning": "替换",
+                "placeholder": 8
+            },
+            {
+                "word": "split",
+                "meaning": "分割",
+                "placeholder": 8
+            },
+            {
+                "word": "substr",
+                "meaning": "截取字符串",
+                "placeholder": 8
+            },
+            {
+                "word": "toLowerCase",
+                "meaning": "转小写",
+                "placeholder": 8
+            },
+            {
+                "word": "toUpperCase",
+                "meaning": "转大写",
+                "placeholder": 8
+            },
+            {
+                "word": "random",
+                "meaning": "随机",
+                "placeholder": 8
+            },
+            {
+                "word": "round",
+                "meaning": "取整",
+                "placeholder": 8
+            },
+            {
+                "word": "ceil",
+                "meaning": "向上取整",
+                "placeholder": 8
+            },
+            {
+                "word": "floor",
+                "meaning": "向下取整",
+                "placeholder": 8
+            },
+            {
+                "word": "abs",
+                "meaning": "取绝对值",
+                "placeholder": 8
+            },
+            {
+                "word": "max",
+                "meaning": "最大值",
+                "placeholder": 8
+            },
+            {
+                "word": "min",
+                "meaning": "最小值",
+                "placeholder": 8
+            },
+            {
+                "word": "pow",
+                "meaning": "幂运算",
+                "placeholder": 8
+            },
+            {
+                "word": "sqrt",
+                "meaning": "取开方",
+                "placeholder": 8
+            },
+            {
+                "word": "new",
+                "meaning": "新建",
+                "placeholder": 8
+            },
+            {
+                "word": "date",
+                "meaning": "日期",
+                "placeholder": 8
+            },
+            {
+                "word": "time",
+                "meaning": "时间",
+                "placeholder": 8
+            },
+            {
+                "word": "year",
+                "meaning": "年",
+                "placeholder": 8
+            },
+            {
+                "word": "month",
+                "meaning": "月",
+                "placeholder": 8
+            },
+            {
+                "word": "hour",
+                "meaning": "时",
+                "placeholder": 8
+            },
+            {
+                "word": "minute",
+                "meaning": "分",
+                "placeholder": 8
+            },
+            {
+                "word": "second",
+                "meaning": "秒",
+                "placeholder": 8
+            },
+            {
+                "word": "millisecond",
+                "meaning": "毫秒",
+                "placeholder": 8
+            },
+            {
+                "word": "start",
+                "meaning": "状态",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "BOM浏览器对象",
+        "children": [
+            {
+                "word": "alert",
+                "meaning": "警告",
+                "placeholder": 8
+            },
+            {
+                "word": "confirm",
+                "meaning": "确认",
+                "placeholder": 8
+            },
+            {
+                "word": "prompt",
+                "meaning": "提示",
+                "placeholder": 8
+            },
+            {
+                "word": "open",
+                "meaning": "打开",
+                "placeholder": 8
+            },
+            {
+                "word": "setInterval",
+                "meaning": "反复定时器",
+                "placeholder": 8
+            },
+            {
+                "word": "setTimeout",
+                "meaning": "一次性定时器",
+                "placeholder": 8
+            },
+            {
+                "word": "clear",
+                "meaning": "清除",
+                "placeholder": 8
+            },
+            {
+                "word": "close",
+                "meaning": "关闭",
+                "placeholder": 8
+            },
+            {
+                "word": "replace",
+                "meaning": "替换",
+                "placeholder": 8
+            },
+            {
+                "word": "back",
+                "meaning": "后退",
+                "placeholder": 8
+            },
+            {
+                "word": "forward",
+                "meaning": "前进",
+                "placeholder": 8
+            },
+            {
+                "word": "window.location",
+                "meaning": "地址",
+                "placeholder": 8
+            },
+            {
+                "word": "href",
+                "meaning": "网址",
+                "placeholder": 8
+            },
+            {
+                "word": "reload",
+                "meaning": "刷新",
+                "placeholder": 8
+            },
+            {
+                "word": "assgin",
+                "meaning": "打开",
+                "placeholder": 8
+            },
+            {
+                "word": "go",
+                "meaning": "跳转",
+                "placeholder": 8
+            },
+            {
+                "word": "appName",
+                "meaning": "程序名",
+                "placeholder": 8
+            },
+            {
+                "word": "appCodeName",
+                "meaning": "程序代号",
+                "placeholder": 8
+            },
+            {
+                "word": "window.screen",
+                "meaning": "屏幕",
+                "placeholder": 8
+            },
+            {
+                "word": "availWidth",
+                "meaning": "可用宽",
+                "placeholder": 8
+            },
+            {
+                "word": "availHeight",
+                "meaning": "可用高",
+                "placeholder": 8
+            },
+            {
+                "word": "userAgent",
+                "meaning": "浏览器头部信息",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "DOM文档对象",
+        "children": [
+            {
+                "word": "document",
+                "meaning": "文档",
+                "placeholder": 8
+            },
+            {
+                "word": "write",
+                "meaning": "写入",
+                "placeholder": 8
+            },
+            {
+                "word": "element",
+                "meaning": "元素，对象",
+                "placeholder": 8
+            },
+            {
+                "word": "getElementById",
+                "meaning": "id获取元素",
+                "placeholder": 8
+            },
+            {
+                "word": "getElementByTagName",
+                "meaning": "标签获取元素",
+                "placeholder": 8
+            },
+            {
+                "word": "getElementByClassName",
+                "meaning": "类名获取元素",
+                "placeholder": 8
+            },
+            {
+                "word": "getElementByName",
+                "meaning": "名称获取元素",
+                "placeholder": 8
+            },
+            {
+                "word": "querySelector",
+                "meaning": "选择器(单个)",
+                "placeholder": 8
+            },
+            {
+                "word": "querySelectorAll",
+                "meaning": "选择器(多个)",
+                "placeholder": 8
+            },
+            {
+                "word": "innerHTML",
+                "meaning": "html内容",
+                "placeholder": 8
+            },
+            {
+                "word": "innerText",
+                "meaning": "文本内容",
+                "placeholder": 8
+            },
+            {
+                "word": "option",
+                "meaning": "选项",
+                "placeholder": 8
+            },
+            {
+                "word": "attribute",
+                "meaning": "属性",
+                "placeholder": 8
+            },
+            {
+                "word": "child",
+                "meaning": "按下级钮",
+                "placeholder": 8
+            },
+            {
+                "word": "parent",
+                "meaning": "上级",
+                "placeholder": 8
+            },
+            {
+                "word": "node",
+                "meaning": "节点",
+                "placeholder": 8
+            },
+            {
+                "word": "first",
+                "meaning": "第一个",
+                "placeholder": 8
+            },
+            {
+                "word": "last",
+                "meaning": "最后一个",
+                "placeholder": 8
+            },
+            {
+                "word": "next",
+                "meaning": "下一个",
+                "placeholder": 8
+            },
+            {
+                "word": "previous",
+                "meaning": "上一个",
+                "placeholder": 8
+            },
+            {
+                "word": "create",
+                "meaning": "创建",
+                "placeholder": 8
+            },
+            {
+                "word": "append",
+                "meaning": "附加",
+                "placeholder": 8
+            },
+            {
+                "word": "insert",
+                "meaning": "插入",
+                "placeholder": 8
+            },
+            {
+                "word": "befor",
+                "meaning": "之前",
+                "placeholder": 8
+            },
+            {
+                "word": "insertRom",
+                "meaning": "插入行",
+                "placeholder": 8
+            },
+            {
+                "word": "insertCell",
+                "meaning": "插入列",
+                "placeholder": 8
+            },
+            {
+                "word": "rowIndex",
+                "meaning": "表格第几行",
+                "placeholder": 8
+            },
+            {
+                "word": "deleteRow",
+                "meaning": "删除行",
+                "placeholder": 8
+            },
+            {
+                "word": "parentElement",
+                "meaning": "父元素节点",
+                "placeholder": 8
+            },
+            {
+                "word": "children",
+                "meaning": "子节点",
+                "placeholder": 8
+            },
+            {
+                "word": "nodeType",
+                "meaning": "节点类型",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "事件",
+        "children": [
+            {
+                "word": "add",
+                "meaning": "添加",
+                "placeholder": 8
+            },
+            {
+                "word": "event",
+                "meaning": "事件",
+                "placeholder": 8
+            },
+            {
+                "word": "listener",
+                "meaning": "监听器",
+                "placeholder": 8
+            },
+            {
+                "word": "remove",
+                "meaning": "移除",
+                "placeholder": 8
+            },
+            {
+                "word": "addEventListener",
+                "meaning": "添加事件监听",
+                "placeholder": 8
+            },
+            {
+                "word": "removeEventListener",
+                "meaning": "移除事件监听",
+                "placeholder": 8
+            },
+            {
+                "word": "target",
+                "meaning": "事件目标",
+                "placeholder": 8
+            },
+            {
+                "word": "stop",
+                "meaning": "停止",
+                "placeholder": 8
+            },
+            {
+                "word": "propagation",
+                "meaning": "冒泡",
+                "placeholder": 8
+            },
+            {
+                "word": "prevent",
+                "meaning": "阻止",
+                "placeholder": 8
+            },
+            {
+                "word": "default",
+                "meaning": "默认",
+                "placeholder": 8
+            },
+            {
+                "word": "cancel",
+                "meaning": "取消",
+                "placeholder": 8
+            },
+            {
+                "word": "bubble",
+                "meaning": "冒泡",
+                "placeholder": 8
+            },
+            {
+                "word": "keyCode",
+                "meaning": "键值",
+                "placeholder": 8
+            },
+            {
+                "word": "this",
+                "meaning": "这个，当前",
+                "placeholder": 8
+            },
+            {
+                "word": "onload",
+                "meaning": "转载时",
+                "placeholder": 8
+            },
+            {
+                "word": "onclick",
+                "meaning": "点击",
+                "placeholder": 8
+            },
+            {
+                "word": "ondbclick",
+                "meaning": "双击",
+                "placeholder": 8
+            },
+            {
+                "word": "onmouseover",
+                "meaning": "鼠标移入",
+                "placeholder": 8
+            },
+            {
+                "word": "onmouseout",
+                "meaning": "鼠标移出",
+                "placeholder": 8
+            },
+            {
+                "word": "onmousedown",
+                "meaning": "鼠标按下",
+                "placeholder": 8
+            },
+            {
+                "word": "onmouseupmove",
+                "meaning": "鼠标移动",
+                "placeholder": 8
+            },
+            {
+                "word": "onmouseup",
+                "meaning": "鼠标抬起",
+                "placeholder": 8
+            },
+            {
+                "word": "onkeydown",
+                "meaning": "按键按下时",
+                "placeholder": 8
+            },
+            {
+                "word": "onkeyup",
+                "meaning": "按键抬起时",
+                "placeholder": 8
+            },
+            {
+                "word": "onkeypress",
+                "meaning": "按键时",
+                "placeholder": 8
+            },
+            {
+                "word": "onsubmit",
+                "meaning": "提交",
+                "placeholder": 8
+            },
+            {
+                "word": "onchange",
+                "meaning": "改变",
+                "placeholder": 8
+            },
+            {
+                "word": "onfocus",
+                "meaning": "聚焦",
+                "placeholder": 8
+            },
+            {
+                "word": "onblur",
+                "meaning": "失焦",
+                "placeholder": 8
+            },
+            {
+                "word": "contextmenu",
+                "meaning": "右键菜单",
+                "placeholder": 8
+            },
+            {
+                "word": "mousewheel",
+                "meaning": "鼠标滚动",
+                "placeholder": 8
+            },
+            {
+                "word": "dragstart",
+                "meaning": "拖到开始",
+                "placeholder": 8
+            },
+            {
+                "word": "dragover",
+                "meaning": "拖动在上面",
+                "placeholder": 8
+            },
+            {
+                "word": "drop",
+                "meaning": "松开",
+                "placeholder": 8
+            },
+            {
+                "word": "dataTransfer",
+                "meaning": "数据传送器",
+                "placeholder": 8
+            },
+            {
+                "word": "setData",
+                "meaning": "设置数据",
+                "placeholder": 8
+            },
+            {
+                "word": "getData",
+                "meaning": "获取数据",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "本地存储",
+        "children": [
+            {
+                "word": "JSON",
+                "meaning": "JSON",
+                "placeholder": 8
+            },
+            {
+                "word": "stringify",
+                "meaning": "对象转字符串",
+                "placeholder": 8
+            },
+            {
+                "word": "parse",
+                "meaning": "字符串转对象",
+                "placeholder": 8
+            },
+            {
+                "word": "cookie",
+                "meaning": "本地存储",
+                "placeholder": 8
+            },
+            {
+                "word": "localStorage",
+                "meaning": "本地存储",
+                "placeholder": 8
+            },
+            {
+                "word": "setItem",
+                "meaning": "存储数据",
+                "placeholder": 8
+            },
+            {
+                "word": "getItem",
+                "meaning": "获取数据",
+                "placeholder": 8
+            },
+            {
+                "word": "removeItem",
+                "meaning": "删除数据",
+                "placeholder": 8
+            },
+            {
+                "word": "clear",
+                "meaning": "清除数据",
+                "placeholder": 8
+            },
+            {
+                "word": "length",
+                "meaning": "数量，长度",
+                "placeholder": 8
+            }
+        ]
+    }
+]

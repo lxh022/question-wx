@@ -1,0 +1,60 @@
+[
+    {
+        "name": "React",
+        "children": [
+            {
+                "command": "React官网",
+                "explain": "https://react.docschina.org/"
+            }
+        ]
+    },
+    {
+        "name": "生命周期",
+        "children": []
+    },
+    {
+        "name": "Hooks",
+        "children": [
+            {
+                "command": "useState()",
+                "explain": "初始状态"
+            },
+            {
+                "command": "useContext()",
+                "explain": "状态分发，组件间通信方式, 常用于【祖组件】与【后代组件】间通信"
+            },
+            {
+                "command": "useEffect()",
+                "explain": "用来更好的执行副作用操作"
+            },
+            {
+                "command": "useReducer()",
+                "explain": "提供了状态管理"
+            },
+            {
+                "command": "useRef()",
+                "explain": "在函数组件中存储、查找组件内的标签或任意其它数据"
+            },
+            {
+                "command": "useMemo()",
+                "explain": "用来解决使用React hooks产生的无用渲染的性能问题"
+            },
+            {
+                "command": "useCallback()",
+                "explain": "是为了性能的优化"
+            },
+            {
+                "command": "useLayoutEffect()",
+                "explain": "用来执行副作用，但是它会在所有的DOM变更之后同步调用effect"
+            },
+            {
+                "command": "useImperativeHandle()",
+                "explain": "在使用 ref 时自定义暴露给父组件的实例值"
+            }
+        ]
+    },
+    {
+        "name": "JSX语法",
+        "children": []
+    }
+]

@@ -1,0 +1,417 @@
+[
+    {
+        "title": "文本",
+        "children": [
+            {
+                "word": "css",
+                "meaning": "层叠样式表",
+                "placeholder": 8
+            },
+            {
+                "word": "import",
+                "meaning": "输入，进口",
+                "placeholder": 8
+            },
+            {
+                "word": "class",
+                "meaning": "类",
+                "placeholder": 8
+            },
+            {
+                "word": "id",
+                "meaning": "标识",
+                "placeholder": 8
+            },
+            {
+                "word": "font-size",
+                "meaning": "文字大小",
+                "placeholder": 8
+            },
+            {
+                "word": "font-family",
+                "meaning": "字体",
+                "placeholder": 8
+            },
+            {
+                "word": "font-weight",
+                "meaning": "文本加粗方式",
+                "placeholder": 8
+            },
+            {
+                "word": "line-height",
+                "meaning": "行高",
+                "placeholder": 8
+            },
+            {
+                "word": "text-indent",
+                "meaning": "首行缩进",
+                "placeholder": 8
+            },
+            {
+                "word": "letter-spacing",
+                "meaning": "字间距",
+                "placeholder": 8
+            },
+            {
+                "word": "italic",
+                "meaning": "倾斜",
+                "placeholder": 8
+            },
+            {
+                "word": "blod",
+                "meaning": "加粗",
+                "placeholder": 8
+            },
+            {
+                "word": "normal",
+                "meaning": "正常",
+                "placeholder": 8
+            },
+            {
+                "word": "text-align",
+                "meaning": "文本水平对齐",
+                "placeholder": 8
+            },
+            {
+                "word": "text-decoration",
+                "meaning": "文本修饰线",
+                "placeholder": 8
+            },
+            {
+                "word": "overline",
+                "meaning": "上划线",
+                "placeholder": 8
+            },
+            {
+                "word": "list",
+                "meaning": "列表",
+                "placeholder": 8
+            },
+            {
+                "word": "line-througn",
+                "meaning": "删除线",
+                "placeholder": 8
+            },
+            {
+                "word": "underline",
+                "meaning": "下划线",
+                "placeholder": 8
+            },
+            {
+                "word": "none",
+                "meaning": "无",
+                "placeholder": 8
+            },
+            {
+                "word": "word-spacing",
+                "meaning": "单词间距",
+                "placeholder": 8
+            },
+            {
+                "word": ":hover",
+                "meaning": "鼠标悬浮",
+                "placeholder": 8
+            },
+            {
+                "word": ":visited",
+                "meaning": "访问过的",
+                "placeholder": 8
+            },
+            {
+                "word": ":active",
+                "meaning": "单击鼠标左键",
+                "placeholder": 8
+            },
+            {
+                "word": "font-style",
+                "meaning": "文字样式",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "浮动定位",
+        "children": [
+            {
+                "word": "float",
+                "meaning": "浮动",
+                "placeholder": 8
+            },
+            {
+                "word": "scroll",
+                "meaning": "滚动",
+                "placeholder": 8
+            },
+            {
+                "word": "padding",
+                "meaning": "内边距",
+                "placeholder": 8
+            },
+            {
+                "word": "margin",
+                "meaning": "外边距",
+                "placeholder": 8
+            },
+            {
+                "word": "display",
+                "meaning": "显示",
+                "placeholder": 8
+            },
+            {
+                "word": "inline",
+                "meaning": "内联",
+                "placeholder": 8
+            },
+            {
+                "word": "block",
+                "meaning": "块",
+                "placeholder": 8
+            },
+            {
+                "word": "flex",
+                "meaning": "弹性布局",
+                "placeholder": 8
+            },
+            {
+                "word": "position",
+                "meaning": "位置，方位",
+                "placeholder": 8
+            },
+            {
+                "word": "absolute",
+                "meaning": "绝对",
+                "placeholder": 8
+            },
+            {
+                "word": "relative",
+                "meaning": "相对",
+                "placeholder": 8
+            },
+            {
+                "word": "fixed",
+                "meaning": "固定",
+                "placeholder": 8
+            },
+            {
+                "word": "static",
+                "meaning": "静态",
+                "placeholder": 8
+            },
+            {
+                "word": "clear",
+                "meaning": "清除浮动",
+                "placeholder": 8
+            },
+            {
+                "word": "overflow",
+                "meaning": "溢出",
+                "placeholder": 8
+            },
+            {
+                "word": "hidden",
+                "meaning": "隐藏",
+                "placeholder": 8
+            },
+            {
+                "word": "auto",
+                "meaning": "自动",
+                "placeholder": 8
+            },
+            {
+                "word": "flex-direction",
+                "meaning": "排列方式",
+                "placeholder": 8
+            },
+            {
+                "word": "row",
+                "meaning": "横向排列",
+                "placeholder": 8
+            },
+            {
+                "word": "row-reverse",
+                "meaning": "反横向排列",
+                "placeholder": 8
+            },
+            {
+                "word": "column",
+                "meaning": "纵向排列",
+                "placeholder": 8
+            },
+            {
+                "word": "column-reverse",
+                "meaning": "反纵向排列",
+                "placeholder": 8
+            },
+            {
+                "word": "justify-content",
+                "meaning": "横轴对齐方式",
+                "placeholder": 8
+            },
+            {
+                "word": "flex-start",
+                "meaning": "始端对齐",
+                "placeholder": 8
+            },
+            {
+                "word": "flex-end",
+                "meaning": "尾端对齐",
+                "placeholder": 8
+            },
+            {
+                "word": "space-between",
+                "meaning": "两端对齐",
+                "placeholder": 8
+            },
+            {
+                "word": "space-around",
+                "meaning": "横轴对齐方式",
+                "placeholder": 8
+            },
+            {
+                "word": "align-items",
+                "meaning": "纵轴对齐方式",
+                "placeholder": 8
+            },
+            {
+                "word": "align-content",
+                "meaning": "设置行对齐",
+                "placeholder": 8
+            },
+            {
+                "word": "align-self",
+                "meaning": "子元素纵轴对齐方式",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "边框背景",
+        "children": [
+            {
+                "word": "border",
+                "meaning": "边框",
+                "placeholder": 8
+            },
+            {
+                "word": "box-shadow",
+                "meaning": "阴影",
+                "placeholder": 8
+            },
+            {
+                "word": "dotted",
+                "meaning": "点状线",
+                "placeholder": 8
+            },
+            {
+                "word": "dashed",
+                "meaning": "虚线",
+                "placeholder": 8
+            },
+            {
+                "word": "solid",
+                "meaning": "实线",
+                "placeholder": 8
+            },
+            {
+                "word": "collapse",
+                "meaning": "折叠",
+                "placeholder": 8
+            },
+            {
+                "word": "background",
+                "meaning": "背景",
+                "placeholder": 8
+            },
+            {
+                "word": "attachment",
+                "meaning": "附件",
+                "placeholder": 8
+            },
+            {
+                "word": "repeat-x",
+                "meaning": "横向平铺",
+                "placeholder": 8
+            },
+            {
+                "word": "repeat-y",
+                "meaning": "纵向平铺",
+                "placeholder": 8
+            },
+            {
+                "word": "no-repeat",
+                "meaning": "不平铺",
+                "placeholder": 8
+            },
+            {
+                "word": "repeat",
+                "meaning": "重复",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "过渡/动画/多媒体",
+        "children": [
+            {
+                "word": "transition",
+                "meaning": "过渡",
+                "placeholder": 8
+            },
+            {
+                "word": "transform",
+                "meaning": "形变",
+                "placeholder": 8
+            },
+            {
+                "word": "animation",
+                "meaning": "动画",
+                "placeholder": 8
+            },
+            {
+                "word": "translate",
+                "meaning": "平移",
+                "placeholder": 8
+            },
+            {
+                "word": "rotate",
+                "meaning": "旋转",
+                "placeholder": 8
+            },
+            {
+                "word": "scale",
+                "meaning": "大小，缩放",
+                "placeholder": 8
+            },
+            {
+                "word": "duration",
+                "meaning": "时间",
+                "placeholder": 8
+            },
+            {
+                "word": "media",
+                "meaning": "媒体",
+                "placeholder": 8
+            },
+            {
+                "word": "deg",
+                "meaning": "度，°",
+                "placeholder": 8
+            },
+            {
+                "word": "direction",
+                "meaning": "方向，方位",
+                "placeholder": 12
+            },
+            {
+                "word": "@keyframes",
+                "meaning": "创建动画",
+                "placeholder": 12
+            },
+            {
+                "word": "@media screen and (max-width: 600px)",
+                "meaning": "屏幕可视窗口尺寸小于 600 像素时",
+                "placeholder": 24
+            }
+        ]
+    }
+]

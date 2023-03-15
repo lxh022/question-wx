@@ -1,0 +1,327 @@
+[
+    {
+        "title": "数字",
+        "children": [
+            {
+                "word": "zero",
+                "meaning": "0",
+                "placeholder": 8
+            },
+            {
+                "word": "one",
+                "meaning": "1",
+                "placeholder": 8
+            },
+            {
+                "word": "two",
+                "meaning": "2",
+                "placeholder": 8
+            },
+            {
+                "word": "three",
+                "meaning": "3",
+                "placeholder": 8
+            },
+            {
+                "word": "four",
+                "meaning": "4",
+                "placeholder": 8
+            },
+            {
+                "word": "five",
+                "meaning": "5",
+                "placeholder": 8
+            },
+            {
+                "word": "six",
+                "meaning": "6",
+                "placeholder": 8
+            },
+            {
+                "word": "seven",
+                "meaning": "7",
+                "placeholder": 8
+            },
+            {
+                "word": "eight",
+                "meaning": "8",
+                "placeholder": 8
+            },
+            {
+                "word": "nine",
+                "meaning": "9",
+                "placeholder": 8
+            },
+            {
+                "word": "ten",
+                "meaning": "10",
+                "placeholder": 8
+            },
+            {
+                "word": "eleven",
+                "meaning": "11",
+                "placeholder": 8
+            },
+            {
+                "word": "twelve",
+                "meaning": "12",
+                "placeholder": 8
+            },
+            {
+                "word": "thirteen",
+                "meaning": "13",
+                "placeholder": 8
+            },
+            {
+                "word": "fourteen",
+                "meaning": "14",
+                "placeholder": 8
+            },
+            {
+                "word": "fifteen",
+                "meaning": "15",
+                "placeholder": 8
+            },
+            {
+                "word": "sixteen",
+                "meaning": "16",
+                "placeholder": 8
+            },
+            {
+                "word": "seventeen",
+                "meaning": "17",
+                "placeholder": 8
+            },
+            {
+                "word": "eighteen",
+                "meaning": "18",
+                "placeholder": 8
+            },
+            {
+                "word": "nineteen",
+                "meaning": "19",
+                "placeholder": 8
+            },
+            {
+                "word": "twenty",
+                "meaning": "20",
+                "placeholder": 8
+            },
+            {
+                "word": "thirty",
+                "meaning": "30",
+                "placeholder": 8
+            },
+            {
+                "word": "forty",
+                "meaning": "40",
+                "placeholder": 8
+            },
+            {
+                "word": "fifty",
+                "meaning": "50",
+                "placeholder": 8
+            },
+            {
+                "word": "sixty",
+                "meaning": "60",
+                "placeholder": 8
+            },
+            {
+                "word": "seventy",
+                "meaning": "70",
+                "placeholder": 8
+            },
+            {
+                "word": "eighty",
+                "meaning": "80",
+                "placeholder": 8
+            },
+            {
+                "word": "ninety",
+                "meaning": "90",
+                "placeholder": 8
+            },
+            {
+                "word": "hundred",
+                "meaning": "百",
+                "placeholder": 8
+            },
+            {
+                "word": "thousand",
+                "meaning": "千",
+                "placeholder": 8
+            },
+            {
+                "word": "million",
+                "meaning": "百万",
+                "placeholder": 8
+            },
+            {
+                "word": "billion",
+                "meaning": "十亿",
+                "placeholder": 8
+            },
+            {
+                "word": "trillion",
+                "meaning": "万亿",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "序号",
+        "children": [
+            {
+                "word": "first",
+                "meaning": "1st",
+                "placeholder": 8
+            },
+            {
+                "word": "second",
+                "meaning": "2nd",
+                "placeholder": 8
+            },
+            {
+                "word": "third",
+                "meaning": "3rd",
+                "placeholder": 8
+            },
+            {
+                "word": "fourth",
+                "meaning": "4th",
+                "placeholder": 8
+            },
+            {
+                "word": "fifth",
+                "meaning": "5th",
+                "placeholder": 8
+            },
+            {
+                "word": "sixth",
+                "meaning": "6th",
+                "placeholder": 8
+            },
+            {
+                "word": "seventh",
+                "meaning": "7th",
+                "placeholder": 8
+            },
+            {
+                "word": "eighth",
+                "meaning": "8th",
+                "placeholder": 8
+            },
+            {
+                "word": "nineth",
+                "meaning": "9th",
+                "placeholder": 8
+            },
+            {
+                "word": "tenth",
+                "meaning": "10th",
+                "placeholder": 8
+            },
+            {
+                "word": "eleventh",
+                "meaning": "11",
+                "placeholder": 8
+            },
+            {
+                "word": "twelfth",
+                "meaning": "12th",
+                "placeholder": 8
+            },
+            {
+                "word": "thirteenth",
+                "meaning": "13th",
+                "placeholder": 8
+            },
+            {
+                "word": "fourteenth",
+                "meaning": "14th",
+                "placeholder": 8
+            },
+            {
+                "word": "fifteenth",
+                "meaning": "15th",
+                "placeholder": 8
+            },
+            {
+                "word": "sixteenth",
+                "meaning": "16th",
+                "placeholder": 8
+            },
+            {
+                "word": "seventeenth",
+                "meaning": "17th",
+                "placeholder": 8
+            },
+            {
+                "word": "eighteenth",
+                "meaning": "18th",
+                "placeholder": 8
+            },
+            {
+                "word": "nineteenth",
+                "meaning": "19th",
+                "placeholder": 8
+            },
+            {
+                "word": "twentieth",
+                "meaning": "20th",
+                "placeholder": 8
+            },
+            {
+                "word": "thirtieth",
+                "meaning": "30th",
+                "placeholder": 8
+            },
+            {
+                "word": "fortieth",
+                "meaning": "40th",
+                "placeholder": 8
+            },
+            {
+                "word": "fiftieth",
+                "meaning": "50th",
+                "placeholder": 8
+            },
+            {
+                "word": "sixtieth",
+                "meaning": "60th",
+                "placeholder": 8
+            },
+            {
+                "word": "seventieth",
+                "meaning": "70th",
+                "placeholder": 8
+            },
+            {
+                "word": "eightieth",
+                "meaning": "80th",
+                "placeholder": 8
+            },
+            {
+                "word": "ninetieth",
+                "meaning": "90th",
+                "placeholder": 8
+            },
+            {
+                "word": "hundredth",
+                "meaning": "100th",
+                "placeholder": 8
+            },
+            {
+                "word": "thousandth",
+                "meaning": "1000th",
+                "placeholder": 8
+            },
+            {
+                "word": "millionth",
+                "meaning": "百万th",
+                "placeholder": 8
+            }
+        ]
+    }
+]

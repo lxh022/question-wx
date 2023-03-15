@@ -1,0 +1,297 @@
+[
+    {
+        "title": "基础指令",
+        "children": [
+            {
+                "word": "v-text",
+                "meaning": "文本绑定",
+                "placeholder": 8
+            },
+            {
+                "word": "v-html",
+                "meaning": "html文本绑定",
+                "placeholder": 8
+            },
+            {
+                "word": "v-bind:",
+                "meaning": "属性绑定",
+                "placeholder": 8
+            },
+            {
+                "word": "v-on:",
+                "meaning": "事件绑定",
+                "placeholder": 8
+            },
+            {
+                "word": "v-model",
+                "meaning": "表单绑定",
+                "placeholder": 8
+            },
+            {
+                "word": "v-if",
+                "meaning": "条件渲染",
+                "placeholder": 8
+            },
+            {
+                "word": "v-else",
+                "meaning": "其他条件",
+                "placeholder": 8
+            },
+            {
+                "word": "v-show",
+                "meaning": "显示",
+                "placeholder": 8
+            },
+            {
+                "word": "v-hide",
+                "meaning": "隐藏",
+                "placeholder": 8
+            },
+            {
+                "word": "v-for",
+                "meaning": "列表循环",
+                "placeholder": 8
+            },
+            {
+                "word": "$event",
+                "meaning": "事件参数",
+                "placeholder": 8
+            },
+            {
+                "word": ".stop",
+                "meaning": "停止修饰符",
+                "placeholder": 8
+            },
+            {
+                "word": ".prevent",
+                "meaning": "阻止默认事件",
+                "placeholder": 8
+            },
+            {
+                "word": ".once",
+                "meaning": "执行一次",
+                "placeholder": 8
+            },
+            {
+                "word": ".enter",
+                "meaning": "Enter修饰符",
+                "placeholder": 8
+            },
+            {
+                "word": ".esc",
+                "meaning": "esc修饰符",
+                "placeholder": 8
+            },
+            {
+                "word": ".lazy",
+                "meaning": "延迟修饰符",
+                "placeholder": 8
+            },
+            {
+                "word": ".number",
+                "meaning": "数字修饰符",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "选项与生命周期",
+        "children": [
+            {
+                "word": "el",
+                "meaning": "模板选择器",
+                "placeholder": 8
+            },
+            {
+                "word": "data",
+                "meaning": "数据中心",
+                "placeholder": 8
+            },
+            {
+                "word": "methods",
+                "meaning": "方法中心",
+                "placeholder": 8
+            },
+            {
+                "word": "computed",
+                "meaning": "计算",
+                "placeholder": 8
+            },
+            {
+                "word": "watch",
+                "meaning": "等监听于",
+                "placeholder": 8
+            },
+            {
+                "word": "handler",
+                "meaning": "处理器",
+                "placeholder": 8
+            },
+            {
+                "word": "deep",
+                "meaning": "深",
+                "placeholder": 8
+            },
+            {
+                "word": "directives",
+                "meaning": "自定义指令",
+                "placeholder": 8
+            },
+            {
+                "word": "filters",
+                "meaning": "自定义过滤器",
+                "placeholder": 8
+            },
+            {
+                "word": "components",
+                "meaning": "组件",
+                "placeholder": 8
+            },
+            {
+                "word": "template",
+                "meaning": "模板",
+                "placeholder": 8
+            },
+            {
+                "word": "props",
+                "meaning": "属性",
+                "placeholder": 8
+            },
+            {
+                "word": "default",
+                "meaning": "默认",
+                "placeholder": 8
+            },
+            {
+                "word": "type",
+                "meaning": "类型",
+                "placeholder": 8
+            },
+            {
+                "word": "$emit",
+                "meaning": "发送事件",
+                "placeholder": 8
+            },
+            {
+                "word": "beforeCreate",
+                "meaning": "创建前",
+                "placeholder": 8
+            },
+            {
+                "word": "created",
+                "meaning": "创建完成",
+                "placeholder": 8
+            },
+            {
+                "word": "beforeMount",
+                "meaning": "渲染前",
+                "placeholder": 8
+            },
+            {
+                "word": "mounted",
+                "meaning": "渲染完成",
+                "placeholder": 8
+            },
+            {
+                "word": "beforeUpdate",
+                "meaning": "更新前",
+                "placeholder": 8
+            },
+            {
+                "word": "updated",
+                "meaning": "更新后",
+                "placeholder": 8
+            },
+            {
+                "word": "beforeDestroy",
+                "meaning": "销毁前",
+                "placeholder": 8
+            },
+            {
+                "word": "destroyed",
+                "meaning": "销毁后",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "动画",
+        "children": [
+            {
+                "word": "transition",
+                "meaning": "过渡",
+                "placeholder": 8
+            },
+            {
+                "word": "mode",
+                "meaning": "模式",
+                "placeholder": 8
+            },
+            {
+                "word": "in-out",
+                "meaning": "先进后出",
+                "placeholder": 8
+            },
+            {
+                "word": "out-in",
+                "meaning": "先出后进",
+                "placeholder": 8
+            },
+            {
+                "word": "tag",
+                "meaning": "标签",
+                "placeholder": 8
+            },
+            {
+                "word": "move-class",
+                "meaning": "移动的类",
+                "placeholder": 8
+            },
+            {
+                "word": "slot",
+                "meaning": "插槽",
+                "placeholder": 8
+            },
+            {
+                "word": "v-enter",
+                "meaning": "进入开始状态",
+                "placeholder": 8
+            },
+            {
+                "word": "v-enter-to",
+                "meaning": "进入结束状态",
+                "placeholder": 8
+            },
+            {
+                "word": "v-enter-active",
+                "meaning": "进入整个状态",
+                "placeholder": 8
+            },
+            {
+                "word": "v-leave",
+                "meaning": "离开初始状态",
+                "placeholder": 8
+            },
+            {
+                "word": "v-leave-to",
+                "meaning": "离开结束状态",
+                "placeholder": 8
+            },
+            {
+                "word": "v-leave-active",
+                "meaning": "离开整个状态",
+                "placeholder": 8
+            },
+            {
+                "word": "enter-active-class",
+                "meaning": "进入激活类名",
+                "placeholder": 12
+            },
+            {
+                "word": "leave-active-class",
+                "meaning": "离开激活类名",
+                "placeholder": 12
+            }
+        ]
+    }
+]

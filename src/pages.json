@@ -1,0 +1,186 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/webview/web-view",
+			"style": {
+				"navigationBarTitleText": "前端笔录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/article/article",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/search/git",
+			"style": {
+				"navigationBarTitleText": "Git速查表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/search/js",
+			"style": {
+				"navigationBarTitleText": "Js速查表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/search/jq",
+			"style": {
+				"navigationBarTitleText": "jQuery速查表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/search/npm",
+			"style": {
+				"navigationBarTitleText": "npm速查表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/search/vue",
+			"style": {
+				"navigationBarTitleText": "Vue速查表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/search/react",
+			"style": {
+				"navigationBarTitleText": "React速查表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/search/ts",
+			"style": {
+				"navigationBarTitleText": "Typescript速查表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/search/md",
+			"style": {
+				"navigationBarTitleText": "Markdown速查表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/table/table",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/word/html",
+			"style": {
+				"navigationBarTitleText": "HTML",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/word/css",
+			"style": {
+				"navigationBarTitleText": "CSS",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/word/js",
+			"style": {
+				"navigationBarTitleText": "Jacascript",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/word/jq",
+			"style": {
+				"navigationBarTitleText": "jQuery",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/word/vue",
+			"style": {
+				"navigationBarTitleText": "Vue",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/word/write",
+			"style": {
+				"navigationBarTitleText": "Write",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/word/number",
+			"style": {
+				"navigationBarTitleText": "Number",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "前端笔录",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#2eb976",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "static/img/select-home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/article/article",
+				"iconPath": "static/img/article.png",
+				"selectedIconPath": "static/img/select-article.png",
+				"text": "文章"
+			}
+		]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"usingComponents": {
+		"mp-html": "mp-html"
+	}
+}

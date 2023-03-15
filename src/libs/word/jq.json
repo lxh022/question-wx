@@ -1,0 +1,437 @@
+[
+    {
+        "title": "常用方法",
+        "children": [
+            {
+                "word": "document",
+                "meaning": "文档",
+                "placeholder": 8
+            },
+            {
+                "word": "ready",
+                "meaning": "准备",
+                "placeholder": 8
+            },
+            {
+                "word": "show",
+                "meaning": "显示",
+                "placeholder": 8
+            },
+            {
+                "word": "hide",
+                "meaning": "隐藏",
+                "placeholder": 8
+            },
+            {
+                "word": "toggle",
+                "meaning": "切换",
+                "placeholder": 8
+            },
+            {
+                "word": "fadeIn",
+                "meaning": "当淡入的时候",
+                "placeholder": 8
+            },
+            {
+                "word": "fadeOut",
+                "meaning": "淡出",
+                "placeholder": 8
+            },
+            {
+                "word": "fadeTo",
+                "meaning": "透明到",
+                "placeholder": 8
+            },
+            {
+                "word": "fadeToggle",
+                "meaning": "切换淡入淡出",
+                "placeholder": 8
+            },
+            {
+                "word": "slideDown",
+                "meaning": "下滑显示",
+                "placeholder": 8
+            },
+            {
+                "word": "slideUp",
+                "meaning": "上拉隐藏",
+                "placeholder": 8
+            },
+            {
+                "word": "slideToggle",
+                "meaning": "滑动切换",
+                "placeholder": 8
+            },
+            {
+                "word": "text()",
+                "meaning": "文本内容",
+                "placeholder": 8
+            },
+            {
+                "word": "html()",
+                "meaning": "html文本内容",
+                "placeholder": 8
+            },
+            {
+                "word": "val()",
+                "meaning": "值",
+                "placeholder": 8
+            },
+            {
+                "word": "css()",
+                "meaning": "样式操作",
+                "placeholder": 8
+            },
+            {
+                "word": "addClass",
+                "meaning": "添加类",
+                "placeholder": 8
+            },
+            {
+                "word": "removeClass",
+                "meaning": "删除类",
+                "placeholder": 8
+            },
+            {
+                "word": "toggleClass",
+                "meaning": "切换类",
+                "placeholder": 8
+            },
+            {
+                "word": "log",
+                "meaning": "日志",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "选择器",
+        "children": [
+            {
+                "word": ":first",
+                "meaning": "第一个",
+                "placeholder": 8
+            },
+            {
+                "word": ":last",
+                "meaning": "最后一个",
+                "placeholder": 8
+            },
+            {
+                "word": ":odd",
+                "meaning": "基数",
+                "placeholder": 8
+            },
+            {
+                "word": ":even",
+                "meaning": "偶数",
+                "placeholder": 8
+            },
+            {
+                "word": ":eq(n)",
+                "meaning": "等于",
+                "placeholder": 8
+            },
+            {
+                "word": ":gt(n)",
+                "meaning": "大于",
+                "placeholder": 8
+            },
+            {
+                "word": ":It(n)",
+                "meaning": "小于",
+                "placeholder": 8
+            },
+            {
+                "word": ":text",
+                "meaning": "文本框",
+                "placeholder": 8
+            },
+            {
+                "word": ":checkbox",
+                "meaning": "多选框",
+                "placeholder": 8
+            },
+            {
+                "word": ":radio",
+                "meaning": "单选",
+                "placeholder": 8
+            },
+            {
+                "word": ":checked",
+                "meaning": "选中",
+                "placeholder": 8
+            },
+            {
+                "word": ":selected",
+                "meaning": "选中",
+                "placeholder": 8
+            },
+            {
+                "word": ":visible",
+                "meaning": "可见的",
+                "placeholder": 8
+            },
+            {
+                "word": ":hidden",
+                "meaning": "隐藏的",
+                "placeholder": 8
+            },
+            {
+                "word": "parent()",
+                "meaning": "父亲",
+                "placeholder": 8
+            },
+            {
+                "word": "parents()",
+                "meaning": "父辈级",
+                "placeholder": 8
+            },
+            {
+                "word": "children()",
+                "meaning": "子级",
+                "placeholder": 8
+            },
+            {
+                "word": "find()",
+                "meaning": "查找子孙元素",
+                "placeholder": 8
+            },
+            {
+                "word": "prev()",
+                "meaning": "上一个",
+                "placeholder": 8
+            },
+            {
+                "word": "next()",
+                "meaning": "下一个",
+                "placeholder": 8
+            },
+            {
+                "word": "siblings()",
+                "meaning": "兄弟",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "事件与DOM",
+        "children": [
+            {
+                "word": "append",
+                "meaning": "内部插入",
+                "placeholder": 8
+            },
+            {
+                "word": "prepend",
+                "meaning": "内容插入到前",
+                "placeholder": 8
+            },
+            {
+                "word": "after",
+                "meaning": "下一个",
+                "placeholder": 8
+            },
+            {
+                "word": "before",
+                "meaning": "在...之前",
+                "placeholder": 8
+            },
+            {
+                "word": "empty",
+                "meaning": "清空",
+                "placeholder": 8
+            },
+            {
+                "word": "remove",
+                "meaning": "移除",
+                "placeholder": 8
+            },
+            {
+                "word": "offset",
+                "meaning": "偏移",
+                "placeholder": 8
+            },
+            {
+                "word": "position",
+                "meaning": "位置",
+                "placeholder": 8
+            },
+            {
+                "word": "on",
+                "meaning": "添加事件",
+                "placeholder": 8
+            },
+            {
+                "word": "off",
+                "meaning": "移出事件",
+                "placeholder": 8
+            },
+            {
+                "word": "bind",
+                "meaning": "绑定",
+                "placeholder": 8
+            },
+            {
+                "word": "unbind",
+                "meaning": "取消绑定",
+                "placeholder": 8
+            },
+            {
+                "word": "one",
+                "meaning": "绑定一次事件",
+                "placeholder": 8
+            },
+            {
+                "word": "hover",
+                "meaning": "合成鼠标事件",
+                "placeholder": 8
+            },
+            {
+                "word": "trigger",
+                "meaning": "触发事件",
+                "placeholder": 8
+            },
+            {
+                "word": "stopPropagation",
+                "meaning": "停止事件冒泡",
+                "placeholder": 8
+            },
+            {
+                "word": "preventDefault",
+                "meaning": "阻止默认事件",
+                "placeholder": 8
+            },
+            {
+                "word": "animate",
+                "meaning": "动画",
+                "placeholder": 8
+            },
+            {
+                "word": "stop",
+                "meaning": "停止",
+                "placeholder": 8
+            },
+            {
+                "word": "delay",
+                "meaning": "延迟",
+                "placeholder": 8
+            }
+        ]
+    },
+    {
+        "title": "Ajax",
+        "children": [
+            {
+                "word": "XMLHttpRequest()",
+                "meaning": "xhr对象",
+                "placeholder": 10
+            },
+            {
+                "word": "open",
+                "meaning": "打开",
+                "placeholder": 7
+            },
+            {
+                "word": "send",
+                "meaning": "发送",
+                "placeholder": 7
+            },
+            {
+                "word": "readyState",
+                "meaning": "准备状态",
+                "placeholder": 8
+            },
+            {
+                "word": "status",
+                "meaning": "状态(码)",
+                "placeholder": 8
+            },
+            {
+                "word": "responseText",
+                "meaning": "服务器响应文本",
+                "placeholder": 8
+            },
+            {
+                "word": "parse()",
+                "meaning": "json字符串转obj",
+                "placeholder": 8
+            },
+            {
+                "word": "stringify()",
+                "meaning": "obj转json字符串",
+                "placeholder": 8
+            },
+            {
+                "word": "$.get()",
+                "meaning": "get请求",
+                "placeholder": 8
+            },
+            {
+                "word": "$.post",
+                "meaning": "post请求",
+                "placeholder": 8
+            },
+            {
+                "word": "$.getScript()",
+                "meaning": "动态加载js",
+                "placeholder": 8
+            },
+            {
+                "word": "$.JSON()",
+                "meaning": "动态加载json",
+                "placeholder": 8
+            },
+            {
+                "word": "$.Ajax",
+                "meaning": "ajax底层方法",
+                "placeholder": 8
+            },
+            {
+                "word": "success",
+                "meaning": "成功",
+                "placeholder": 8
+            },
+            {
+                "word": "done",
+                "meaning": "完成",
+                "placeholder": 8
+            },
+            {
+                "word": "fail",
+                "meaning": "失败",
+                "placeholder": 8
+            },
+            {
+                "word": "always",
+                "meaning": "总是",
+                "placeholder": 8
+            },
+            {
+                "word": "then",
+                "meaning": "然后",
+                "placeholder": 8
+            },
+            {
+                "word": "promise",
+                "meaning": "承诺",
+                "placeholder": 8
+            },
+            {
+                "word": "reslove",
+                "meaning": "兑现(解决)",
+                "placeholder": 8
+            },
+            {
+                "word": "reject",
+                "meaning": "拒绝",
+                "placeholder": 8
+            },
+            {
+                "word": ".then",
+                "meaning": "然后",
+                "placeholder": 8
+            }
+        ]
+    }
+]

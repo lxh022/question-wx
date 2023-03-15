@@ -1,0 +1,78 @@
+[
+    {
+        "name": "链接",
+        "children": [
+            {
+                "command": "Typescript",
+                "explain": "https://www.tslang.cn/docs/home.html"
+            }
+        ]
+    },
+    {
+        "name": "基础类型",
+        "children": [
+            {
+                "command": "any",
+                "explain": "声明为 any 的变量可以赋予任意类型的值"
+            },
+            {
+                "command": "number",
+                "explain": "双精度 64 位浮点值。它可以用来表示整数和分数"
+            },
+            {
+                "command": "string",
+                "explain": "字符系列，使用单引号或双引号来表示字符串类型"
+            },
+            {
+                "command": "boolean",
+                "explain": "表示逻辑值：true 和 false"
+            },
+            {
+                "command": "数组类型number[] | Array<number>",
+                "explain": "声明变量为数组,在元素类型后面加上[]或者使用数组泛型"
+            },
+            {
+                "command": "元组类型[string,number]",
+                "explain": "元组类型用来表示已知元素数量和类型的数组，各元素的类型不必相同，对应位置的类型需要相同"
+            },
+            {
+                "command": "enum",
+                "explain": "枚举类型用于定义数值集合"
+            },
+            {
+                "command": "void",
+                "explain": "用于标识方法返回值的类型，表示该方法没有返回值"
+            },
+            {
+                "command": "null",
+                "explain": "表示对象值缺失"
+            },
+            {
+                "command": "undefined",
+                "explain": "用于初始化变量为一个未定义的值"
+            },
+            {
+                "command": "never",
+                "explain": "其它类型(包括null和undefined)的子类型，代表从不会出现的值"
+            }
+        ]
+    },
+    {
+        "name": "联合类型",
+        "children": [
+            {
+                "command": "string|number",
+                "explain": "变量为字符串类型或者数字类型"
+            }
+        ]
+    },
+    {
+        "name": "接口",
+        "children": [
+            {
+                "command": "interface 参数类型名 { }",
+                "explain": "是一系列抽象方法的声明，是一些方法特征的集合"
+            }
+        ]
+    }
+]
